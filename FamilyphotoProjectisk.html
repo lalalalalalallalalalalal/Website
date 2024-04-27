@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="isk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scope=1.0">
+    <title>Fjölskyldumynda tölvun & Immich uppsetningar Verkefni: Varðveiting Minningar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .date-container {
+            float: left;
+            width: 100px;
+            text-align: center;
+            border-right: 1px solid #ddd;
+            padding: 10px;
+        }
+        .content-container {
+            margin-left: 110px; /* Jafnvel munur fyrir dagsetningar */
+        }
+        .post-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        .read-more {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .project {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .project h2 {
+            margin-top: 0;
+        }
+        .timeline {
+            list-style: none;
+            padding: 0;
+        }
+        .timeline li {
+            margin-bottom: 10px;
+            position: relative;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f5f5f5;
+        }
+        .timeline li:after {
+            content: "";
+            display: block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #ddd;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .timeline li:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: -15px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: transparent #ddd transparent transparent;
+            transform: translateY(-50%);
+        }
+        .timeline li.done:before {
+            border-color: #007bff transparent transparent transparent;
+        }
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            .date-container,
+            .content-container {
+                width: 100%; /* Gera þá fullan breidd á litlum skjáum */
+                float: none;  /* Fjarlægja floti á litlum skjáum */
+                margin: 0;     /* Fjarlægja rúmmál á litlum skjáum */
+            }
+            .date-container {
+                border-right: none; /* Fjarlægja mörk á litlum skjáum */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="date-container">
+        <p>2024-04-27</p>
+    </div>
+    <div class="content-container">
+        <h1>Fjölskyldumynda tölvun & Immich uppsetningar Verkefni: Varðveiting Minningar</h1>
+        <p>Í þessum tölvu heim er mikilvægara en nokkurntímann að varðveita dýrmætar fjölskylduminningar okkar. Þetta verkefni miðar að því að stafrænna myndasafni fjölskyldunnar og að setja upp Immich sem örugga og aðgengilega geymslu lausn. Með því að gera það, vona ég að:</p>
+        <ul>
+            <li>Vernda myndir mínar (og annarra) frá líkamlegri skaða og rýrnun.</li>
+            <li>Gera þær auðveldlega aðgengilegar til að deila með fjölskyldu og vinum.</li>
+            <li>Búa til varanlegt stafrænt safn fyrir komandi kynslóðir.</li>
+            <li>Bæta persónuvernd með sjálfsmótaðri Immich uppsetningu</li>
+            <li>Að mestu ótakmarkað mynda geymsla alveg frítt!</li>
+        </ul>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Fréttir</title>
+            <style>
+                body {
+                    font-family: sans-serif;
+                    margin: 0;
+                    padding: 20px;
+                }
+                h1 {
+                    text-align: center;
+                }
+                .project-section {
+                    margin-bottom: 20px;
+                    border-bottom: 1px solid #ddd;
+                    padding-bottom: 20px;
+                }
+                .progress-list {
+                    list-style: none;
+                    padding: 0;
+                }
+                .progress-list li {
+                    margin-bottom: 5px;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>Fréttir</h1>
+            <p>Þessi síða veitir uppfærslu á framvindu verkefnis míns um mynda tölvunar verkefnið og Immich uppsetningu.</p>
+            <p>Meginmarkmiðið með þessu verkefni er að stafrænna (mín og annarra) líkamlegar myndir og setja upp Immich þjónustu til að stjórna og varðveita þær. Immich er opinn heimildarmiðaður (það þýðir að það er alveg ókeypis) myndastjórnunarlaukur.</p>
+            <section class="project-section">
+                <h2>Foto Stafrænn Umskrift</h2>
+                <p>Hér eru fréttir um mynda tölvununar:</p>
+                <ul class="progress-list">
+                    <p>Myndir stafrænnaðar: 0</p>
+                    <li>**Búið:** (Listi yfir það sem þú hefur náð að gera, t.d. fjöldi mynda stafrænnar umskriftar, sérstakar myndasögur kláraðar)</li>
+                    <li>**Hvað þarf að gera:** (Listi yfir það sem eftir stendur að gera, t.d. sérstakar myndasögur til að stafrænna, öðlast myndaskannara ef nauðsynlegt)</li>
+                </ul>
+            </section>
+            <section class="project-section">
+                <h2>Immich Uppsetningar fréttir</h2>
+                <p>Hér eru fréttir um Immich þjónustu uppsetningu:</p>
+                <ul class="progress-list">
+                    <p>Notendur fluttir yfir: 0</p>
+                    <li>**Búið:** (Listi yfir það sem þú hefur náð að gera, t.d. Immich þjónusta sett upp, grunnstillingar kláraðar)</li>
+                    <li>**Hvað þarf að gera:** (Listi yfir það sem eftir stendur að gera, t.d. stilla Immich fyrir myndinnflutning, búa til notendaskrá)</li>
+                </ul>
+            </section>
+            <p>Ég mun halda áfram að uppfæra þessa síðu þegar ég geng áfram með verkefnið.</p>
+            <footer>
+                <div class="footer-content">
+                  <p>&copy; 2024 Pétur Ingi Bache</p>
+                  <nav>
+                    <ul>
+                      <li><a href="aboutme.-.html">Um Mig</a></li>
+                      <li><a href="contact.html">Hafðu Samband</a></li>
+                      <li><a href="index.html">Heim</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </footer>
+        </body>
+        </html>
+    </div>
+</body>
+</html>
