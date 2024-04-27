@@ -3,6 +3,6 @@ RewriteBase /  # Assuming your files are in the root directory
 RewriteRule ^(.html)$ /$1 [L]
 
 # Specific rewrites for your HTML files (replace with your actual file names)
-RewriteRule ^FamilyphotoProjectisk.html$ /FamilyphotoProject.html [L]
+RewriteRule ^FamilyphotoProject.html$ /FamilyphotoProject.html [L]
 RewriteRule ^FamilyphotoProjectisk.html$ /FamilyphotoProjectisk.html [L]
 RewriteRule ^Familyphotoprojecten.html$ /Familyphotoprojecten.html [L]
